@@ -3,7 +3,7 @@ using System.Security.Policy;
 
 namespace ConsoleApp2
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {

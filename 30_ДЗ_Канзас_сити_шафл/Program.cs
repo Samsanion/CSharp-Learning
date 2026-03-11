@@ -3,7 +3,7 @@ using System.Xml.Schema;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {

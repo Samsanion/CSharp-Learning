@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
