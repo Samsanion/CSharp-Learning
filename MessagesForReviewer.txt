@@ -1,0 +1,250 @@
+Messages for reviewer
+Task: ДЗ_Переменные
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/01_ДЗ_Переменные
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Работа_со_строками
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/02_ДЗ_Работа_со_строками
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Картинки
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/03_ДЗ_Картинки
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Перестановка_местами_значений
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/04_ДЗ_Перестановка_местами_значений
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Магазин_кристаллов
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/05_ДЗ_Магазин_кристаллов
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Поликлиника
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/06_ДЗ_Поликлиника
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Освоение_циклов
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/07_ДЗ_Освоение_циклов
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Контроль_выхода
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/08_ДЗ_Контроль_выхода
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Последовательность
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/09_ДЗ_Последовательность
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Сумма_чисел
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/10_ДЗ_Сумма_чисел
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Консольное_меню
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/11_ДЗ_Консольное_меню
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Конвертер_валют
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/12_ДЗ_Конвертер_валют
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Вывод_имени
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/13_ДЗ_Вывод_имени
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Программа_под_паролем
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/14_ДЗ_Программа_под_паролем
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Кратные_числа
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/15_ДЗ_Кратные_числа
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Степень_двойки
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/16_ДЗ_Степень_двойки
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Бой_с_боссом
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/17_ДЗ_Бой_с_боссом
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Работа_с_конкретными_строками_столбцами
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/18_ДЗ_Работа_с_конкретными_строками_столбцами
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Наибольший_элемент
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/19_ДЗ_Наибольший_элемент
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Локальные_максимумы
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/20_ДЗ_Локальные_максимумы
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Динамический_массив
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/21_ДЗ_Динамический_массив
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Подмассив_повторений_чисел
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/22_ДЗ_Подмассив_повторений_чисел
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Сортировка_чисел
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/23_ДЗ_Сортировка_чисел
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Split
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/24_ДЗ_Split
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Сдвиг_значений_массива_(ЗАмудрено)
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/25_ДЗ_Сдвиг_значений_массива_(ЗАмудрено)
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Сдвиг_значений_массива
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/26_ДЗ_Сдвиг_значений_массива
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Скобочное_выражение
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/27_ДЗ_Скобочное_выражение
+Main file: g
+
+------------------------------
+
+Task: ДЗ_ReadInt
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/28_ДЗ_ReadInt
+Main file: g
+
+------------------------------
+
+Task: ДЗ_UIElement
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/29_ДЗ_UIElement
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Канзас_сити_шафл
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/30_ДЗ_Канзас_сити_шафл
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Кадровый_учет
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/31_ДЗ_Кадровый_учет
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Brave_new_world
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/32_ДЗ_Brave_new_world
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Толковый_словарь
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/33_ДЗ_Толковый_словарь
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Очередь_в_магазине
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/34_ДЗ_Очередь_в_магазине
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Динамический_массив_продвинутый
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/35_ДЗ_Динамический_массив_продвинутый
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Кадровый_учет_продвинутый
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/36_ДЗ_Кадровый_учет_продвинутый
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Объединение_в_одну_коллекцию
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/37_ДЗ_Объединение_в_одну_коллекцию
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Работа_с_классами
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/38_ДЗ_Работа_с_классами
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Работа_со_свойствами
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/39_ДЗ_Работа_со_свойствами
+Main file: g
+
+------------------------------
+
+Task: ДЗ_База_данных_игроков
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/40_ДЗ_База_данных_игроков
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Колода_карт
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/41_ДЗ_Колода_карт
+Main file: g
+
+------------------------------
+
+Task: ДЗ_Хранилище_книг
+Link: https://github.com/Samsanion/CSharp-Learning/tree/main/42_ДЗ_Хранилище_книг
+Main file: g
