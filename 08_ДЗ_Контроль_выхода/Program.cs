@@ -1,2 +1,24 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using System;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string imputPrase;
+            string exitPrase = "exit";
+
+            Console.Write("Введите фразу: ");
+            imputPrase = Console.ReadLine();
+
+            while (imputPrase != exitPrase)
+            {
+                Console.Write("Введите фразу: ");
+                imputPrase = Console.ReadLine();
+            }
+
+            Console.WriteLine("Программа Завершена");
+        }
+    }
+}
