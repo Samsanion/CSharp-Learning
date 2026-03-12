@@ -1,0 +1,75 @@
+Инструкция по созданию новых заданий
+
+Скрипт Add-New-Task.ps1 лежит в корне репозитория CSharp-Learning.
+
+1. Перейти в папку репозитория
+
+cd "F:\GitHub\CSharp-Learning"
+
+2. Создать новое задание
+
+Пример:
+
+powershell -ExecutionPolicy Bypass -File .\Add-New-Task.ps1 -TaskName "Массивы"
+
+После этого автоматически создастся новая папка с номером, например:
+
+43_Массивы
+
+Внутри будут:
+- Program.cs
+- 43_Массивы.csproj
+- README.md
+
+И проект автоматически добавится в CSharp-Learning.slnx.
+
+3. Написать код
+
+Код писать в файле:
+
+43_Массивы\Program.cs
+
+4. Проверить запуск
+
+dotnet run --project ".\43_Массивы\43_Массивы.csproj"
+
+5. Отправить изменения в GitHub
+
+git add .
+git commit -m "Add task 43_Массивы"
+git push
+
+6. Отправить задание на проверку
+
+Проверяющему отправляется ссылка сразу на папку задания:
+
+https://github.com/Samsanion/CSharp-Learning/tree/main/43_Массивы
+
+
+Кратко
+
+Создать задание:
+
+cd "F:\GitHub\CSharp-Learning"
+powershell -ExecutionPolicy Bypass -File .\Add-New-Task.ps1 -TaskName "Имя_Задания"
+
+Запустить:
+
+dotnet run --project ".\Номер_Имя_Задания\Номер_Имя_Задания.csproj"
+
+Запушить:
+
+git add .
+git commit -m "Add task Номер_Имя_Задания"
+git push
+
+Отправить на проверку:
+отправляется ссылка на папку нужного задания в GitHub.
+
+Важно:
+в названии задания лучше не использовать длинные фразы, лишние пробелы и мусор.
+Пиши коротко и понятно:
+- Массивы
+- Циклы
+- Строки
+- Коллекции
