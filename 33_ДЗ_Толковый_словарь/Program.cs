@@ -11,10 +11,10 @@ public class Program
 
         Dictionary<string, string> explanatoryDictionary = new Dictionary<string, string>()
         {
-            { "Баг", "ошибка, всплывающая в программе (англ. bug — клоп, жучок);"},
-            {"Индусский код", "длинный и сложно написанный код, в котором есть лишние строки."},
-            {"Падаван", "неуважительное название стажера или джуна."},
-            {"Плюшки","бонусы и подарки."}
+            { "Баг", "ошибка, всплывающая в программе (англ. bug — клоп, жучок);" },
+            { "Индусский код", "длинный и сложно написанный код, в котором есть лишние строки." },
+            { "Падаван", "неуважительное название стажера или джуна." },
+            { "Плюшки", "бонусы и подарки." }
         };
 
         while (isWork)
@@ -42,12 +42,10 @@ public class Program
             Console.ReadLine();
             Console.Clear();
         }
-
     }
 
     static void OutputTableContents(Dictionary<string, string> explanatoryDictionary, string exitCommand)
     {
-
         Console.Clear();
         Console.SetCursorPosition(0, 4);
         Console.WriteLine("============================");

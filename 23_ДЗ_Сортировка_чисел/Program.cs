@@ -1,44 +1,41 @@
 using System;
 
-namespace ConsoleApp2
+public class Program
 {
-    public class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int[] givenArray = new int[10];
+
+        Random random = new Random();
+
+        int minRandomValue = 0;
+        int maxRandomValue = 30;
+        int temp;
+
+        for (int i = 0; i < givenArray.Length; i++)
         {
-            int[] givenArray = new int[10];
+            givenArray[i] = random.Next(minRandomValue, maxRandomValue + 1);
+            Console.Write(givenArray[i] + " ");
+        }
 
-            Random random = new Random();
-
-            int minRandomValue = 0;
-            int maxRandomValue = 30;
-            int temp;
-
-            for (int i = 0; i < givenArray.Length; i++)
+        for (int i = 0; i < givenArray.Length; i++)
+        {
+            for (int j = 0; j < givenArray.Length; j++)
             {
-                givenArray[i] = random.Next(minRandomValue, maxRandomValue + 1);
-                Console.Write(givenArray[i] + " ");
-            }
-
-            for (int i = 0; i < givenArray.Length; i++)
-            {
-                for (int j = 0; j < givenArray.Length; j++)
+                if (givenArray[j] > givenArray[i])
                 {
-                    if (givenArray[j] > givenArray[i])
-                    {
-                        temp = givenArray[i];
-                        givenArray[i] = givenArray[j];
-                        givenArray[j] = temp;
-                    }
+                    temp = givenArray[i];
+                    givenArray[i] = givenArray[j];
+                    givenArray[j] = temp;
                 }
-
             }
-            Console.WriteLine();
+        }
 
-            for (int i = 0; i < givenArray.Length; i++)
-            {
-                Console.Write(givenArray[i] + " ");
-            }
+        Console.WriteLine();
+
+        for (int i = 0; i < givenArray.Length; i++)
+        {
+            Console.Write(givenArray[i] + " ");
         }
     }
 }

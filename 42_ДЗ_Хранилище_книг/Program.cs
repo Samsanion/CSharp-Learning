@@ -161,6 +161,17 @@ public class Library
         
         WaitForKey();
     }
+    
+    private void Print(IEnumerable<Book> printBooks)
+    {
+        Console.Clear();
+
+        if (EmptinessTest(printBooks))
+            foreach (var book in printBooks)
+                Console.WriteLine(book.ToString());
+        
+        WaitForKey();
+    }
 
     private void FindBooks(SearchType searchType)
     {
@@ -226,16 +237,6 @@ public class Library
         return true;
     }
     
-    private void Print(IEnumerable<Book> printBooks)
-    {
-        Console.Clear();
-
-        if (EmptinessTest(printBooks))
-            foreach (var book in printBooks)
-                Console.WriteLine(book.ToString());
-        
-        WaitForKey();
-    }
     
     private static void WaitForKey()
    {

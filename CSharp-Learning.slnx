@@ -41,4 +41,5 @@
   <Project Path="40_ДЗ_База_данных_игроков/40_ДЗ_База_данных_игроков.csproj" />
   <Project Path="41_ДЗ_Колода_карт/41_ДЗ_Колода_карт.csproj" />
   <Project Path="42_ДЗ_Хранилище_книг/42_ДЗ_Хранилище_книг.csproj" />
+  <Project Path="43_ДЗ_Магазин\43_ДЗ_Магазин.csproj" Type="Classic C#" />
 </Solution>

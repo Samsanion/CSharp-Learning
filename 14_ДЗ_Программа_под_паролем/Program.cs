@@ -1,29 +1,26 @@
 using System;
 
-namespace ConsoleApp1
+public class Program
 {
-    public class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        string userPassword = "123";
+        string userImput;
+        int countAttemts = 3;
+
+        for (int i = 1; i <= countAttemts; i++)
         {
-            string userPassword = "123";
-            string userImput;
-            int countAttemts = 3;
+            Console.Write("Введите пароль: ");
+            userImput = Console.ReadLine();
 
-            for (int i = 1; i <= countAttemts; i++)
+            if (userImput == userPassword)
             {
-                Console.Write("Введите пароль: ");
-                userImput = Console.ReadLine();
-
-                if (userImput == userPassword)
-                {
-                    Console.WriteLine("Top Sicret");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine($"Вы использовали {i} из {countAttemts} попыток.");
-                }
+                Console.WriteLine("Top Sicret");
+                break;
+            }
+            else
+            {
+                Console.WriteLine($"Вы использовали {i} из {countAttemts} попыток.");
             }
         }
     }

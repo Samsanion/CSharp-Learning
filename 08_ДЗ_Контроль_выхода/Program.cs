@@ -1,24 +1,21 @@
 using System;
 
-namespace ConsoleApp1
+public class Program
 {
-    public class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            string imputPrase;
-            string exitPrase = "exit";
+        string imputPrase;
+        string exitPrase = "exit";
 
+        Console.Write("Введите фразу: ");
+        imputPrase = Console.ReadLine();
+
+        while (imputPrase != exitPrase)
+        {
             Console.Write("Введите фразу: ");
             imputPrase = Console.ReadLine();
-
-            while (imputPrase != exitPrase)
-            {
-                Console.Write("Введите фразу: ");
-                imputPrase = Console.ReadLine();
-            }
-
-            Console.WriteLine("Программа Завершена");
         }
+
+        Console.WriteLine("Программа Завершена");
     }
 }

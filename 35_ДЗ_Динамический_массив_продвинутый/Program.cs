@@ -1,91 +1,88 @@
 using System;
 using System.Collections.Generic;
 
-namespace ConsoleApp2
+public class Program
 {
-    public class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        const string CommandSum = "s";
+        const string CommandExit = "e";
+
+        List<int> givenList = new List<int>();
+
+        string userImput;
+
+        bool isWork = true;
+
+        while (isWork)
         {
-            const string CommandSum = "s";
-            const string CommandExit = "e";
+            ListOutput(givenList);
 
-            List<int> givenList = new List<int>();
+            Console.SetCursorPosition(0, 0);
+            Console.WriteLine($"{CommandSum} -  Для суммирования всех знвчений");
+            Console.WriteLine($"{CommandExit} - Для выхода");
+            Console.Write("Введите число для добавления или команду: ");
+            userImput = Console.ReadLine();
 
-            string userImput;
-
-            bool isWork = true;
-
-            while (isWork)
+            switch (userImput)
             {
-                ListOutput(givenList);
+                case CommandSum:
+                    SummationElementsList(givenList);
+                    break;
 
-                Console.SetCursorPosition(0, 0);
-                Console.WriteLine($"{CommandSum} -  Для суммирования всех знвчений");
-                Console.WriteLine($"{CommandExit} - Для выхода");
-                Console.Write("Введите число для добавления или команду: ");
-                userImput = Console.ReadLine();
+                case CommandExit:
+                    isWork = false;
+                    break;
 
-                switch (userImput)
-                {
-                    case CommandSum:
-                        SummationElementsList(givenList);
-                        break;
-
-                    case CommandExit:
-                        isWork = false;
-                        break;
-
-                    default:
-                        ImputProcessing(givenList, userImput);
-                        break;
-                }
-
-                Console.Clear();
+                default:
+                    ImputProcessing(givenList, userImput);
+                    break;
             }
+
+            Console.Clear();
+        }
+    }
+
+    private static void ListOutput(List<int> givenList)
+    {
+        Console.SetCursorPosition(0, 5);
+        Console.WriteLine($"\n\n------------------------------------------");
+        Console.WriteLine("Введенные значения: ");
+
+        foreach (int i in givenList)
+        {
+            Console.Write(i + " ");
+        }
+    }
+
+    private static void SummationElementsList(List<int> givenList)
+    {
+        int sum = 0;
+
+        foreach (int term in givenList)
+        {
+            sum += term;
         }
 
-        private static void ListOutput(List <int> givenList)
-        {
-            Console.SetCursorPosition(0, 5);
-            Console.WriteLine($"\n\n------------------------------------------");
-            Console.WriteLine("Введенные значения: ");
+        givenList.Clear();
 
-            foreach (int i in givenList)
-            {
-                Console.Write(i + " ");
-            }
+        Console.Write($"\nСумма введенных значений: {sum}");
+
+        Console.ReadKey();
+    }
+
+    private static void ImputProcessing(List<int> givenList, string userImput)
+    {
+        int numberEntered;
+
+        if (int.TryParse(userImput, out numberEntered))
+        {
+            givenList.Add(numberEntered);
         }
-
-        private static void SummationElementsList(List<int> givenList)
+        else
         {
-            int sum = 0;
-
-            foreach (int term in givenList)
-            {
-                sum += term;
-            }
-
-            givenList.Clear();
-
-            Console.Write($"\nСумма введенных значений: {sum}");
-
+            Console.WriteLine("Такой команды не существует");
             Console.ReadKey();
-        }
-
-        private static void ImputProcessing (List <int> givenList,string userImput)
-        {
-            int numberEntered;
-
-            if (int.TryParse(userImput, out numberEntered))
-            {
-                givenList.Add(numberEntered);
-            }
-            else
-            {
-                Console.WriteLine("Такой команды не существует");
-                Console.ReadKey();
-            }
         }
     }
 }

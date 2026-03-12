@@ -1,62 +1,59 @@
 using System;
 
-namespace ConsoleApp1
+public class Program
 {
-    public class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        const string CommandShowText1 = "1";
+        const string CommandShowText2 = "2";
+        const string CommandRandomNumber = "3";
+        const string CommandClearConsol = "4";
+        const string CommandExit = "5";
+
+        Random random = new Random();
+        int randomNumber;
+
+        bool isWork = true;
+        string userInput;
+
+        while (isWork)
         {
-            const string CommandShowText1 = "1";
-            const string CommandShowText2 = "2";
-            const string CommandRandomNumber = "3";
-            const string CommandClearConsol = "4";
-            const string CommandExit = "5";
+            Console.WriteLine($"{CommandShowText1} Показать текст 1");
+            Console.WriteLine($"{CommandShowText2} Показать текст 2");
+            Console.WriteLine($"{CommandRandomNumber} Вывести рандомное число");
+            Console.WriteLine($"{CommandClearConsol} Очистить консоль");
+            Console.WriteLine($"{CommandExit} Выход");
 
-            Random random = new Random();
-            int randomNumber;
+            Console.Write("Ваш выбор: ");
+            userInput = Console.ReadLine();
 
-            bool isWork = true;
-            string userInput;
-
-            while (isWork)
+            switch (userInput)
             {
-                Console.WriteLine($"{CommandShowText1} Показать текст 1");
-                Console.WriteLine($"{CommandShowText2} Показать текст 2");
-                Console.WriteLine($"{CommandRandomNumber} Вывести рандомное число");
-                Console.WriteLine($"{CommandClearConsol} Очистить консоль");
-                Console.WriteLine($"{CommandExit} Выход");
+                case CommandShowText1:
+                    Console.WriteLine("Текст 1");
+                    break;
 
-                Console.Write("Ваш выбор: ");
-                userInput = Console.ReadLine();
+                case CommandShowText2:
+                    Console.WriteLine("Текст 2");
+                    break;
 
-                switch (userInput)
-                {
-                    case CommandShowText1:
-                        Console.WriteLine("Текст 1");
-                        break;
+                case CommandRandomNumber:
+                    randomNumber = random.Next();
+                    Console.WriteLine($"Ваше рандомное число {randomNumber}");
+                    break;
 
-                    case CommandShowText2:
-                        Console.WriteLine("Текст 2");
-                        break;
+                case CommandClearConsol:
+                    Console.Clear();
+                    break;
 
-                    case CommandRandomNumber:
-                        randomNumber = random.Next();
-                        Console.WriteLine($"Ваше рандомное число {randomNumber}");
-                        break;
+                case CommandExit:
+                    isWork = false;
+                    Console.WriteLine("Программа завершена.");
+                    break;
 
-                    case CommandClearConsol:
-                        Console.Clear();
-                        break;
-
-                    case CommandExit:
-                        isWork = false;
-                        Console.WriteLine("Программа завершена.");
-                        break;
-
-                    default:
-                        Console.WriteLine("Такой Команды нет.");
-                        break;
-                }
+                default:
+                    Console.WriteLine("Такой Команды нет.");
+                    break;
             }
         }
     }
